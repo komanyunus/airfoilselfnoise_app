@@ -41,7 +41,7 @@ adam_var = IntVar()
 
 #Data Preparing
 #Loading Data
-file_path = r"C:\Users\yunus\OneDrive\Masaüstü\Yapay Zeka Yüksek Lisans\ME 524 Artificial Intelligence in Mechanical\Project\airfoil+self+noise\MATLAB\airfoil_self_noise.txt"
+file_path = r"airfoil_self_noise.txt"
 # Read the data into a Pandas DataFrame
 column_names = ['Frequency', 'AoA', 'ChordLength', 'FreeStreamVelocity', 'SSD_Thickness', 'ScaledSoundPressureLevel']
 df_data = pd.read_csv(file_path, sep='\t', header=None, names=column_names)
